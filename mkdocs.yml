@@ -1,0 +1,18 @@
+site_name: Abhinav Vadlapatla
+
+theme:
+  name: material
+  features:
+    - instant
+    - tabs
+
+nav:
+  - EKS:
+    - 'Setup EKS Cluster' : eks/cluster.md
+    - 'Cluster Autoscaler on Fargate': eks/fargate_autoscaler.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+repo_url: https://github.com/avadlapatla.github.io
